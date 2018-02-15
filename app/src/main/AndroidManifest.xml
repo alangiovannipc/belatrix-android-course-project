@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.belatrix.apolar.projectbelatrixandroid">
+    package="course.belatrix.com.belatrix_android_course_project">
 
     <application
         android:allowBackup="true"
