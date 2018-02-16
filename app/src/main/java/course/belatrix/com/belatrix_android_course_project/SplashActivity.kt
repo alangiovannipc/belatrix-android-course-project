@@ -21,5 +21,6 @@ class SplashActivity : AppCompatActivity() {
     fun goToOnboarding() {
         val onboardingIntent = Intent(this, OnboardingActivity::class.java)
         startActivity(onboardingIntent)
+        finish()
     }
 }
