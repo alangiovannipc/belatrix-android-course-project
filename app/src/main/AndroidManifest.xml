@@ -18,6 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".OnboardingActivity"></activity>
+        <activity
+            android:name=".FormRegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"
