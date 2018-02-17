@@ -2,61 +2,85 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@color/white">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.2"
-        android:text="algo ps" />
-
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="0.8">
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/shape_rect_2">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="REGISTRO"/>
+            android:layout_height="50dp"
+            android:text="REGISTRO"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nombre*"/>
+            android:hint="Nombre*"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_rect_2"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Apellido*"/>
+            android:hint="Apellido*"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_rect_2"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Correo Electrónico*"/>
+            android:hint="Correo Electrónico*"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_rect_2"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="DNI*"/>
+            android:hint="DNI*"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_rect_2"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Constraseña*"/>
+            android:hint="Constraseña*"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_rect_2"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_rect_2"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Accepto los términos y condiciones"
+                android:layout_height="wrap_content"
+                android:text="Accepto los términos y condiciones."
                 android:linksClickable="true"/>
 
             <CheckBox
@@ -64,11 +88,15 @@
                 android:layout_height="wrap_content"/>
         </LinearLayout>
 
-    </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Guardar"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_rect"
+            android:layout_marginTop="50dp"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Guardar"/>
+    </LinearLayout>
 
 </LinearLayout>
