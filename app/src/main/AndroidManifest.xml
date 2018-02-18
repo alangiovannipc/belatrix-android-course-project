@@ -18,12 +18,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".OnboardingActivity" />
+        <activity
+            android:name=".FormRegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".SigInActivity"></activity>
+        <activity android:name=".SigInActivity" />
     </application>
 
 </manifest>
