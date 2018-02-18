@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name"></string>
-    <string name="btnIngresarText">Ingresar con correo</string>
+    <string name="btnSigInText">Ingresar con correo</string>
+    <string name="btnGoFacebookText">Ingresar con facebook</string>
     <string name="textViewLink">Saltar por ahora</string>
+    <string name="editTextPlaceHolderMail">Ingresar mail</string>
+    <string name="editTextPlaceHolderPassword">Ingresar contraseña</string>
+    <string name="textViewForgetPasswordText">Olvidé mi contraseña</string>
 </resources>
