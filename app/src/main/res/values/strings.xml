@@ -6,4 +6,5 @@
     <string name="editTextPlaceHolderMail">Ingresar mail</string>
     <string name="editTextPlaceHolderPassword">Ingresar contraseña</string>
     <string name="textViewForgetPasswordText">Olvidé mi contraseña</string>
+    <string name="textViewRegisterLink">Regístrate</string>
 </resources>
